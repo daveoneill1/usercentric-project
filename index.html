@@ -10,7 +10,9 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-        <link rel="stylesheet" href="" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 
 </head>
@@ -18,77 +20,96 @@
 <body>
         <!--navigation bar-->
 
+        <div class="container-fluid navalert-container">
+                <nav class="navbar navbar-light navbar-expand-sm bg-transparent">
+                        <a href="/" class="navbar-brand">
+                                Dao Tcm</a>
 
-        <nav class="navbar navbar-light navbar-expand-sm bg-transparent">
-                <a href="/" class="navbar-brand">
-                        Dao Tcm</a>
-                <ul class="navbar-nav mx-auto">
-                        <li class="active nav-item mr-5"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item mr-5"><a class="nav-link" href="">About us</a></li>
-                        <li class="nav-item mr-5"><a class="nav-link" href="">Contact</a></li>
-                
-                        
-                </ul>
+                        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-                
+                                <ul class="navbar-nav mx-auto">
+                                        <li class="active nav-item mr-5"><a class="nav-link" href="/">Home</a></li>
+                                        <li class="nav-item mr-5"><a class="nav-link" href="">About us</a></li>
+                                        <li class="nav-item mr-5"><a class="nav-link" href="">Contact</a></li>
 
 
+                                </ul>
+                        </div>
 
-        </nav>
 
-        <article class="container mt-3">
 
-                <!--Callout-->
+
+
+                </nav>
+        </div>
+
+        <!--Callout-->
+
+        <div class="container-fluid callout-container">
+
+
                 <div class="row">
                         <div class="col-12">
                                 <section class="callout jumbotron text-center">
 
-                                        <h6 class="text-uppercase">Dao Tcm</h6>
-                                        <h2 class="text-uppercase">Welcome To Dao TCM Clinic</h2>
-                                        <p>Individual treatments for mind,body,emotion and spirit.</p>
-                                        <button class="btn btn-lg btn-success">Book Appointment</button>
+                                       
+                                        <h2 class="jumbotron-header text-uppercase">Welcome To <br> Dao TCM Clinic</h2>
+                                        <p class="summary-text">Individual treatments for mind,body,emotion and spirit.
+                                        </p>
+                                        <button class="btn btn-lg btn--cta btn--orange">Book Appointment</button>
 
 
                                 </section>
                         </div>
                 </div>
 
-                <hr>
+        </div>
 
-                <!--What we offer-->
+        
+
+        <!--What we offer-->
+
+        <div class="container offer-container">
 
                 <section class="offer">
                         <div class="row">
-                                <div class="col-12">
-                                        <h6 class="text-uppercase  text-center">What we offer</h6>
-                                        <h2 class="text-uppercase text-center">DAO - meaning the way</h2>
-                                </div>
-                        </div>
-                        <div class="row">
                                 <div class="col-12 my-5">
-                                        <p>In the hands of the professional, TCM is a very safe medicine. It can
-                                                do no harm. It
-                                                has no side
-                                                effects. It can treat body, mind, emotion and spirit. It can
-                                                treat all of these
-                                                effectively without
-                                                the need for referrals. Tcm can treat all ages and all types of
-                                                people, from
-                                                children to the
-                                                elderly. It has done so for thousands of years in China treating
-                                                every type of
-                                                human ailment.</p>
+                                        <h6 class=" our-approach text-uppercase  text-center">Our approach</h6>
+                                        <h2 class="offer-header text-uppercase text-center">DAO means 'the way'</h2>
+                                        <p class="approach">In the hands of the professional, TCM is a very safe medicine. It can
+                                                        do no harm. It
+                                                        has no side
+                                                        effects. It can treat body, mind, emotion and spirit. It can
+                                                        treat all of these
+                                                        effectively without
+                                                        the need for referrals. Tcm can treat all ages and all types of
+                                                        people, from
+                                                        children to the
+                                                        elderly. It has done so for thousands of years in China treating
+                                                        every type of
+                                                        human ailment.</p>
                                 </div>
                         </div>
+                        
+                              
+                                        
+                                
+                       
 
 
 
 
                 </section>
+        </div>
 
-                <hr>
-                <!--Treatments-->
+        <hr>
+        <!--Treatments-->
 
+        <div class="container treatments-container">
                 <section class="treatments">
                         <div class="row">
                                 <div class="col-12 my-5">
@@ -98,7 +119,8 @@
                         <div class="row">
                                 <div class="col-12 col-md-6 col-lg-4">
                                         <div class="treatment1">
-                                                        <img src="/assets/images/acupunture 600 600.jpg" alt="Acupuncture" class="img-thumbnail">
+                                                <img src="/assets/images/acupunture 600 600.jpg" alt="Acupuncture"
+                                                        class="img-thumbnail">
 
                                                 <h5 class="text-uppercase">Acupuncture</h5>
                                                 <p>In the hands of the
@@ -113,7 +135,8 @@
 
                                 <div class="col-12 col-md-6 col-lg-4">
                                         <div class="treatment2">
-                                                        <img src="/assets/images/Moxibustion 600 600.jpg" alt="Moxibustion" class="img-thumbnail">
+                                                <img src="/assets/images/Moxibustion 600 600.jpg" alt="Moxibustion"
+                                                        class="img-thumbnail">
 
 
                                                 <h5 class="text-uppercase">Moxibustion</h5>
@@ -130,7 +153,8 @@
 
                                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                                         <div class="treatment3">
-                                                        <img src="/assets/images/cupping 600 600.jpg" alt="Cupping" class="img-thumbnail">
+                                                <img src="/assets/images/cupping 600 600.jpg" alt="Cupping"
+                                                        class="img-thumbnail">
 
                                                 <h5 class="text-uppercase">Cupping</h5>
                                                 <p>In the hands of the
@@ -149,11 +173,14 @@
 
                 </section>
 
+        </div>
 
-                <hr>
+
+        <hr>
 
 
-                <!--Pricing-->
+        <!--Pricing-->
+        <div class="container pricing-container">
 
                 <section class="pricing">
                         <div class="row">
@@ -182,17 +209,26 @@
                                 </div>
                         </div>
                 </section>
+        </div>
 
 
 
-
-                <hr>
+        <hr>
 
 
 
 
         </article>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
 
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
 
 
 

@@ -1,0 +1,158 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/* navbar  */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+   
+}
+
+.navbar .navbar-nav .nav-link {
+    color:#5d614c;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+/* containers */
+
+.callout-container {
+
+    height: 100vh;
+    background: url("../images/callout\ image\ alt.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-container{
+
+}
+
+.treatments-container{
+
+}
+
+.pricing-container{
+
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background: transparent;
+   
+}
+
+
+.jumbotron-header {
+    color: #FFFFFF;
+    font-size: 2.375rem;
+    font-weight: bold;
+    margin: 25px;
+    letter-spacing: 6px;
+}
+
+
+.summary-text {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin:30px;
+
+}
+
+/* our approach */
+
+
+
+.our-approach {
+    color: #7b8c39;
+    font-size: .75rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.offer-header {
+    color: black;
+    font-size: 2.375rem;
+    font-weight: bold;
+    margin:30px;
+    letter-spacing: 3px;
+}
+
+.approach {
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    max-width: 600px;
+    text-align: justify;
+    margin: 0 auto;
+   
+    
+
+}
+
+    
+    
+
+
+
+
+
+/* Buttons */
+
+.btn-lg {
+    border-radius: 0;
+}
+
+.btn--cta {
+    font-weight:600;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 240px;
+
+}
+
+.btn--orange {
+    color: #FFFFFF;
+    background-color: #7b8c39;
+    
+}
+
+.btn:hover {
+    color: white;
+    background-color: #57661e;
+}
