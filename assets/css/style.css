@@ -95,6 +95,11 @@ body {
 
 }
 
+
+/* Logo */
+
+
+
 /* our approach */
 
 
@@ -202,6 +207,51 @@ font-weight: 600;
    
 }
 
+
+/*Footer*/
+
+.page-footer {
+    background-color:#101820;}
+
+    .footer-title {
+
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+
+    }
+
+    .footer-heading {
+        color: #d2c295;
+        font-size: .75rem;
+        font-weight: bold;
+        margin-top: 30px;
+
+
+    }
+
+    .useful-list a, 
+    .social-list a {
+        color: white;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    
+    .footer-bottom {
+    background-color:white;}
+
+    /* Bottom Footer */
+
+    .footer-bottom-text {
+        color: black;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: bold;
+
+    }
 
 /* Buttons */
 
