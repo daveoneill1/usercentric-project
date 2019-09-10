@@ -52,20 +52,27 @@ body {
 }
 
 
-
-
-.offer-container{
-
+.content-container {
+    margin-top: 30px;
+   
 }
 
-.treatments-container{
-
+.test-container {
+    
+    margin-bottom: 60px;
 }
 
-.pricing-container{
 
+
+/*bg overlay */
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)),url("../images/callout\ image\ alt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
 }
-
 
 /* jumbotron */
 
@@ -117,14 +124,13 @@ body {
     color: black;
     font-size: 2.375rem;
     font-weight: bold;
-    margin:30px;
     letter-spacing: 3px;
 }
 
 .approach {
     color:black;
-    font-family: 'Roboto', sans-serif;
-    font-size: .75rem;
+    font-family: 'montserrat', sans-serif;
+    font-size:16px;
     font-weight: 400;
     letter-spacing: 3px;
     max-width: 600px;
@@ -149,16 +155,14 @@ body {
 
 }
 
-.img-thumbnail  {
 
-    margin-bottom: 40px;
-}
 
 
 .treatment-headings {
 
     font-weight: bold;
     color:black;
+    margin-top: 30px;
 }
 
 .treatment .btn {
@@ -197,8 +201,8 @@ font-weight: 600;
 
 .price-detail {
     color:black;
-    font-family: 'Roboto', sans-serif;
-    font-size: .75rem;
+    font-family: 'montserrat', sans-serif;
+    font-size:16px;
     font-weight: 400;
     letter-spacing: 3px;
     max-width: 400px;
@@ -210,26 +214,72 @@ font-weight: 600;
 
 /*About us */
         
-.aboutus-header {
-    font-weight: bold;
-    color:black;
-    letter-spacing: 4px;
-    margin-bottom: 32px;
-
+.aboutus-info{
+    padding-left: 0px;
 }
+
+.aboutus-header {
+
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;  
+    
+} 
 
 
 .aboutus-text {
     color:black;
-    font-family: 'Roboto', sans-serif;
-    font-size: .75rem;
+    font-family: 'montserrat', sans-serif;
+    font-size:16px;
     font-weight: 400;
     letter-spacing: 3px;
-    max-width: 800px;
+    max-width: 1000px;
+   text-align: justify;
+   margin: 0 auto;
+  
     
 }
 
+.aboutus-container {
+
+   height: 65vh;
+    background: url("../images/about\ us\ image3.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-row {
+	max-width: 100%;
+}
+.image-section {
+	position: relative;
+}
+    
+
+
 /*Contact*/
+
+.contactus-container {
+
+    height: 65vh;
+     background: url("../images/china\ image.jpg") no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
 
 .contact-heading {
     font-weight: bold;
@@ -240,11 +290,7 @@ font-weight: 600;
 }
 
 
-    
-.img-thumb-trans{
-    background-color: transparent;
-    border:none;
-}
+
 
 .center-form {
     padding-top: 10px;
@@ -253,7 +299,7 @@ font-weight: 600;
 }
 
 button[type="submit"] {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 20px;
     
    
@@ -311,9 +357,16 @@ button[type="submit"] {
         color: black;
         font-size: 12px;
         letter-spacing: 2px;
-        font-weight: bold;
+        margin: 0;
+   
 
 
+    }
+
+    .footer-logo{
+       margin: 0;
+       padding-top: 20px;
+        
     }
 
     .legal-list a {
@@ -354,6 +407,13 @@ button[type="submit"] {
     width: 48px;
     height:8px;
     background-color: #57661e;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
     
 }
 
+.row {
+    margin:0;
+
+}
