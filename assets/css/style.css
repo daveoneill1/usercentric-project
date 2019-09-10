@@ -45,12 +45,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 .offer-container{
 
@@ -64,11 +66,10 @@ body {
 
 }
 
+
 /* jumbotron */
 
-.logo {
-    
-}
+
 
 .jumbotron {
     background: transparent;
@@ -96,7 +97,7 @@ body {
 }
 
 
-/* Logo */
+
 
 
 
@@ -207,6 +208,59 @@ font-weight: 600;
    
 }
 
+/*About us */
+        
+.aboutus-header {
+    font-weight: bold;
+    color:black;
+    letter-spacing: 4px;
+    margin-bottom: 32px;
+
+}
+
+
+.aboutus-text {
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    max-width: 800px;
+    
+}
+
+/*Contact*/
+
+.contact-heading {
+    font-weight: bold;
+    color:black;
+    letter-spacing: 4px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+    
+.img-thumb-trans{
+    background-color: transparent;
+    border:none;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+   
+}
+
+
+
 
 /*Footer*/
 
@@ -240,16 +294,32 @@ font-weight: 600;
         letter-spacing: 2px;
     }
     
-    .footer-bottom {
-    background-color:white;}
 
-    /* Bottom Footer */
+     /* Bottom Footer */
+
+    .footer-bottom {
+    background-color:white;
+    
+}
+
+.footer-info {
+    margin-top: 30px;
+}
+   
 
     .footer-bottom-text {
         color: black;
         font-size: 12px;
         letter-spacing: 2px;
         font-weight: bold;
+
+
+    }
+
+    .legal-list a {
+        color: black;
+        font-size: 12px;
+        letter-spacing: 2px;
 
     }
 
@@ -276,5 +346,14 @@ font-weight: 600;
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
+}
+
+/* Block Dividers */
+
+.block-divider {
+    width: 48px;
+    height:8px;
+    background-color: #57661e;
+    
 }
 
