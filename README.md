@@ -63,6 +63,34 @@ This website is for clients who are interested in finding out more about DAO Tra
 - Corporate page - the owner would like to add a page targeting corporate users who would like to hire the service for employees. 
 - Appointment Scheduler - at some point in the future the owner would like to add the facility for users to book directly from the website.
 
+## Technologies Used
+
+- HTML
+- CSS
+- Bootstrap 4.3.1
+- Google Fonts
+
+
+
+
+## Deployment 
+
+### Git Hub Pages Deployment 
+
+
+### Running the code locally 
+
+
+## Credits 
+
+### Content 
+
+### Media 
+
+### Acknowledgements
+
+
+
 
 
 
