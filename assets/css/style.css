@@ -1,6 +1,6 @@
 
  
-/* ----------------------------------------------HOME PAGE-----------------------------------------  */
+/*--HOME PAGE--*/
 
 
 
@@ -11,7 +11,7 @@ body {
 
 
 
-/* -----------NAVBAR----------  */
+/*--NAVBAR--*/
 
 .navalert-container {
     position: absolute;
@@ -41,12 +41,12 @@ body {
 }
 
 
-/* ------------NAVBAR----------  */
+/*--NAVBAR--*/
 
 .callout-container {
 
     height: 100vh;
-    background: url("../images/callout\ image\ alt.jpg") no-repeat center center fixed; 
+    background: url("../images/optcallout\ image\ alt.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,10 +70,10 @@ body {
 
 
 
-/* ------------OVERLAY----------  */
+/*--OVERLAY-- */
 
 .bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)),url("../images/callout\ image\ alt.jpg");
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5)),url("../images/optcallout\ image\ alt.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -81,7 +81,7 @@ body {
 }
 
 
-/* ------------JUMBOTRON----------  */
+/*--JUMBOTRON-- */
 
 
 
@@ -114,7 +114,7 @@ body {
 
 
 
-/* ------------OUR APPROACH SECTION----------  */
+/*--OUR APPROACH SECTION-- */
 
 
 
@@ -146,7 +146,7 @@ body {
 
     
 
-/* ------------TREATMENT SECTION----------  */
+/*--TREATMENT SECTION--*/
 
 .treatment-title {
 
@@ -181,7 +181,7 @@ body {
     
 
  
-/* ------------PRICING SECTION----------  */
+/*--PRICING SECTION--*/
 
 
 .pricing-text {
@@ -216,7 +216,7 @@ font-weight: 600;
 }
 
  
-/* ----------------------------------------------ABOUT US PAGE-----------------------------------------  */
+/*--ABOUT US PAGE-- */
         
 .aboutus-info{
     padding-left: 0px;
@@ -248,7 +248,7 @@ font-weight: 600;
 .aboutus-container {
 
    height: 65vh;
-    background: url("../images/aboutusimage3.jpg") no-repeat center center fixed; 
+    background: url("../images/optaboutusimage3.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -273,13 +273,13 @@ font-weight: 600;
 
 
  
-/* ----------------------------------------------CONTACT PAGE-----------------------------------------  */
+/*--CONTACT PAGE-- */
 
 
 .contactus-container {
 
     height: 65vh;
-     background: url("../images/chinaimage.jpg") no-repeat center center fixed; 
+     background: url("../images/Optchinaimage.jpg") no-repeat center center fixed; 
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -332,7 +332,7 @@ button[type="submit"] {
 
 
  
-/* ----------------------------------------------FOOTER-----------------------------------------  */
+/*--FOOTER--*/
 
 .page-footer {
     background-color:#101820;}
@@ -367,10 +367,10 @@ button[type="submit"] {
     
 
  
-/* ----------------------------------------------OTHER-----------------------------------------  */
+/*--OTHER--*/
 
 
-     /* ------------BOTTOM FOOTER----------  */
+     /*--BOTTOM FOOTER--*/
 
     .footer-bottom {
     background-color:white;
@@ -407,7 +407,7 @@ button[type="submit"] {
 
     }
 
-     /* ------------BUTTONS----------  */
+     /*--BUTTONS--*/
 
 
 .btn--orange {
@@ -433,7 +433,7 @@ button[type="submit"] {
 }
 
 
- /* ------------BLOCK DIVIDERS----------  */
+ /*--BLOCK DIVIDERS-- */
 
 
 .block-divider {
@@ -449,7 +449,7 @@ button[type="submit"] {
 
 
 
-  /* ------------FIX FOR ISSUE WITH ADDITIONAL PADDING----------  */
+  /*--FIX FOR ISSUE WITH ADDITIONAL PADDING--*/
 
 .row {
     margin:0;
